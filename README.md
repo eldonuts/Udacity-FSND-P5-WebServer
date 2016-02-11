@@ -15,7 +15,14 @@ Software Installed:
 - Pip
 
 Config Changes:
-
+1. Set up new Role/User in postgres and gave it ownership of new database called catalog.
+2. Checked that postgres remote connections were disabled (always turned off by default for Ubuntu distributions).
+3. Altered my config.py (my app) to connect to postgres database.
+4. Altered apache2 config to point at new catalog.wsgi file.
+5. Altered apache2 config to add in environment variables (just one for now).
+6. Altered catalog.wsgi to import the environment vriables.
+7. Altered permissions on certain files and kept some as root in app dir (some needed www-data permissions).
+8. Installed requirements with pip and requirments.txt
 
 #### 4. "A list of any third-party resources you made use of to complete this project."
 
