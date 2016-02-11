@@ -1,10 +1,10 @@
 #### 1. "The IP address and SSH port so your server can be accessed by the reviewer."
 
-52.36.59.21:2200
+- 52.36.59.21:2200
 
 #### 2. "The complete URL to your hosted web application."
 
-http://restaurants.donuts.io
+- http://restaurants.donuts.io
 
 #### 3. "Summary of software you installed and configuration changes made."
 
