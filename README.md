@@ -8,14 +8,13 @@ http://restaurants.donuts.io
 
 #### 3. "Summary of software you installed and configuration changes made."
 
-Software Installed:
+##### Software Installed:
 - Postgres
 - Apache2
 - Git
 - Pip
 
 ##### Config Changes:
-
 - Set up new Role/User in postgres and gave it ownership of new database called catalog.
 - Checked that postgres remote connections were disabled (always turned off by default for Ubuntu distributions).
 - Altered my config.py (my app) to connect to postgres database.
